@@ -14,13 +14,13 @@ abstract class Pessoa {
 }
 
 class Brasileiro extends Pessoa{
-    cumprimentar() {
+    cumprimentar(): any {
         return console.log(this.nome + " cumprimenta da seguinte forma: E aí, galera!")
     }
 }
 
 class Americano extends Pessoa{
-    cumprimentar() {
+    cumprimentar(): any {
         return console.log(this.nome + " cumprimenta da seguinte forma: Hello Guys!")
     }
 }

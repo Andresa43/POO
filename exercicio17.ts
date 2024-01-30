@@ -14,11 +14,11 @@ class Televisao {
         this.volumeAtual = _volumeAtual    
     }
 
-    ligar(){
+    ligar(): any{
         return console.log("Ligou a TV");
     }
 
-    desligar(){
+    desligar(): any{
         return console.log("Desligou a TV");
     }
 

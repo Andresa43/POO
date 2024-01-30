@@ -9,7 +9,7 @@ class Ikran{
         this.nome = _nome
     }
     
-    montar() {
+    montar(): any {
         return console.log(this.nome + " montou")
     }
 }

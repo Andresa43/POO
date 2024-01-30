@@ -12,11 +12,11 @@ class ContaBancaria{
         this._saldo = saldo;
     }
 
-    get mostrarSaldo(){
+    get mostrarSaldo(): number{
         return this._saldo;
     }
 
-    public depositar(valor: number){
+    public depositar(valor: number): number{
         return this._saldo = this._saldo + valor;
     }
 

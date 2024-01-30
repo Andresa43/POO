@@ -13,21 +13,21 @@ interface Animais{
 }
 
 class Cavalo implements Animais{
-    emitirSom() {
+    emitirSom(): any {
         return console.log("Emitiu som")
     }
     
-    locomover(){
+    locomover(): any{
         return console.log("O cavalo correu")
     }
 }
 
 class Lagarta implements Animais{
-    emitirSom() {
+    emitirSom(): any {
         return console.log("Emitiu som")
     }
     
-    locomover() {
+    locomover(): any {
         return console.log("O lagarto subiu na parede")
     }
 }

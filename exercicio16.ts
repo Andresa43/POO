@@ -15,15 +15,15 @@ class Carro1 {
         this.velocidade = _velocidade;
     }
 
-    acelerar(){
+    acelerar(): any{
         return console.log("O carro " + this.modelo + " tem a função de acelerar");
     }
 
-    frear(){
+    frear(): any{
         return console.log("freou");
     }
 
-    indicarVelocidade(){
+    indicarVelocidade(): any{
         return console.log("A velocidade da marca " + this.marca + " é " + this.velocidade + " Km/h");
     }
 }

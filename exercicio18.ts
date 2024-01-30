@@ -22,15 +22,15 @@ abstract class AnimalDeIsabela{
 
 class Leao extends AnimalDeIsabela{
 
-    correr() {
+    correr(): any {
         return console.log("Se movimentou");
     }
 
-    emitirSom() {
+    emitirSom(): any {
         return console.log("Emitiu som");
     }
 
-    comer() {
+    comer(): any {
         return console.log("Comeu uma capivara");
     }
 }

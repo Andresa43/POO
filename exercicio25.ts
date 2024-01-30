@@ -13,21 +13,21 @@ class Veiculo{
 
 class Aviao extends Veiculo{
 
-    movimentar(){
+    movimentar(): any{
         return console.log("Avião movimentou");
     }
 }
 
 class Moto extends Veiculo{
 
-    movimentar(){
+    movimentar(): any{
         return console.log("Moto movimentou");
     }
 }
 
 class Barco extends Veiculo{
 
-    movimentar(){
+    movimentar(): any{
         return console.log("Barco movimentou");
     }
 }

@@ -11,21 +11,21 @@ interface Funcionario{
 
 class TechLead implements Funcionario{
 
-    exercerFuncao() {
+    exercerFuncao(): any {
         return console.log("Exerce a função de líder técnico da equipe")
     }
 }
 
 class Backend implements Funcionario{
 
-    exercerFuncao() {
+    exercerFuncao(): any {
         return console.log("Exerce a função de desenvolvedor(a) backend")
     }
 }
 
 class FrontEnd implements Funcionario{
 
-    exercerFuncao() {
+    exercerFuncao(): any {
         return console.log("Exerce a função de desenvolvedora(o) front-end")
     }
 }

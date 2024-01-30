@@ -12,13 +12,13 @@ interface Personagem{
 
 class SerHumano implements Personagem{
 
-    conectar() {
+    conectar(): any {
         return console.log("Conectou com uma pessoa");
     }
 }
 
 class SerVivo implements Personagem{
-    conectar() {
+    conectar(): any {
         return console.log("Conectou com um animal");
     }
 }

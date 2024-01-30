@@ -13,7 +13,7 @@ class Toruk implements AnimalDeIsadora{
         this.nome = _nome;
     }
 
-    movimentar() {
+    movimentar(): any {
         return console.log(this.nome + " nadou")
     }
 }

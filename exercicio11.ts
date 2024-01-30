@@ -12,11 +12,11 @@ class Tulkun {
         this._tamanho = tamanho
     }
 
-    public nadar(){
+    public nadar(): any{
         console.log("Pode nadar")
     }
 
-    public get mostrarNome(){
+    public get mostrarNome(): string{
         return this._nome
     }
 

@@ -11,7 +11,7 @@ abstract class AnimalDePandora{
 }
 
 class Tsurak extends AnimalDePandora{
-    movimentar() {
+    movimentar(): any {
         console.log(this.nome + " nadou")
     }
 }
